@@ -1,0 +1,111 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App {
+  max-width: 100%;
+  width: 98vw;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  font-size: 24px;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+.nav-list {
+  margin: 2px 5px;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 0rem;
+  left: 39px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 89.56rem;
+  margin: auto;
+  /* margin-top: 2rem; */
+  margin-bottom: 2rem;
+  background-color: #226bfd;
+  z-index: 5;
+}
+.navbar .nav-link {
+  width: 37%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar a {
+  padding: 6px 22px;
+  background-color: #226bfd;
+  color: #e8e8e8;
+  text-decoration: none;
+}
+.Dashboard {
+  text-align: center;
+}
+.Dashboard input {
+  width: 20%;
+}
+.Dashboard button {
+  width: 6%;
+  border: none;
+  background-color: #226bfd;
+  color: white;
+  padding: 2px;
+}
+.box {
+  padding: 12px 10px;
+  background-color: #e0e0e0;
+}
+.box h4 {
+  margin-left: 3rem;
+}
+/* .flex {
+  display: flex !important;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 7rem;
+} */
+.flex {
+  display: flex !important;
+  width: 98%;
+  height: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 7rem;
+  margin: auto;
+  margin-top: 7rem;
+  z-index: 2;
+}
+label {
+  display: inline-block;
+  float: left;
+}
+.mt-5 {
+  margin-top: 6rem !important;
+}
