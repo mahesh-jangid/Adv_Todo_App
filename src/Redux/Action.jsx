@@ -1,5 +1,4 @@
 import { REGISTER_SUCCESS, LOGIN_SUCCESS, USER, LOGOUT } from "./ActionTypes";
-import axios from "axios";
 
 const register_success = (payload) => {
   return {
